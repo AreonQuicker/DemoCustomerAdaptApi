@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCustomerAdaptApi", "DemoCustomerAdaptApi\DemoCustomerAdaptApi.csproj", "{95E0A7CB-3198-4A78-BE99-49495AD8F890}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D54D4628-D4E1-45F6-9270-53DA99CDB8AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{C92382FB-B344-4A0E-8332-626AD73CA192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCustomerAdaptApi.Domain", "DemoCustomerAdaptApi.Domain\DemoCustomerAdaptApi.Domain.csproj", "{8AF08D11-D0BD-4A40-A18D-A5F24A3E0C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCustomerAdaptApi.DataAccess", "DemoCustomerAdaptApi.DataAccess\DemoCustomerAdaptApi.DataAccess.csproj", "{7AC472F6-AE31-4040-9EFD-2CD0AA89D2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCustomerAdaptApi.Domain.Logic", "DemoCustomerAdaptApi.Domain.Logic\DemoCustomerAdaptApi.Domain.Logic.csproj", "{36707718-F7DF-43D4-A2D9-93465F718ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCustomerAdaptApi.Domain.Models", "DemoCustomerAdaptApi.Domain.Models\DemoCustomerAdaptApi.Domain.Models.csproj", "{78A70EA9-DA8F-4C4D-88BF-9F7F8837604A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{271A527A-641F-40D5-9C58-0995B56835E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCustomerAdaptApi.UnitTests", "DemoCustomerAdaptApi.UnitTests\DemoCustomerAdaptApi.UnitTests.csproj", "{680F22CB-6123-4925-9126-EC86829749BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E0A7CB-3198-4A78-BE99-49495AD8F890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E0A7CB-3198-4A78-BE99-49495AD8F890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E0A7CB-3198-4A78-BE99-49495AD8F890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E0A7CB-3198-4A78-BE99-49495AD8F890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF08D11-D0BD-4A40-A18D-A5F24A3E0C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF08D11-D0BD-4A40-A18D-A5F24A3E0C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF08D11-D0BD-4A40-A18D-A5F24A3E0C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF08D11-D0BD-4A40-A18D-A5F24A3E0C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC472F6-AE31-4040-9EFD-2CD0AA89D2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC472F6-AE31-4040-9EFD-2CD0AA89D2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC472F6-AE31-4040-9EFD-2CD0AA89D2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC472F6-AE31-4040-9EFD-2CD0AA89D2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36707718-F7DF-43D4-A2D9-93465F718ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36707718-F7DF-43D4-A2D9-93465F718ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36707718-F7DF-43D4-A2D9-93465F718ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36707718-F7DF-43D4-A2D9-93465F718ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A70EA9-DA8F-4C4D-88BF-9F7F8837604A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A70EA9-DA8F-4C4D-88BF-9F7F8837604A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A70EA9-DA8F-4C4D-88BF-9F7F8837604A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A70EA9-DA8F-4C4D-88BF-9F7F8837604A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680F22CB-6123-4925-9126-EC86829749BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680F22CB-6123-4925-9126-EC86829749BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680F22CB-6123-4925-9126-EC86829749BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680F22CB-6123-4925-9126-EC86829749BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AF08D11-D0BD-4A40-A18D-A5F24A3E0C5F} = {D54D4628-D4E1-45F6-9270-53DA99CDB8AD}
+		{7AC472F6-AE31-4040-9EFD-2CD0AA89D2DC} = {C92382FB-B344-4A0E-8332-626AD73CA192}
+		{36707718-F7DF-43D4-A2D9-93465F718ACD} = {D54D4628-D4E1-45F6-9270-53DA99CDB8AD}
+		{78A70EA9-DA8F-4C4D-88BF-9F7F8837604A} = {C92382FB-B344-4A0E-8332-626AD73CA192}
+		{680F22CB-6123-4925-9126-EC86829749BD} = {271A527A-641F-40D5-9C58-0995B56835E4}
+	EndGlobalSection
+EndGlobal

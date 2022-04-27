@@ -1,0 +1,2 @@
+﻿dotnet ef migrations add MyFirstMigration --project DemoCustomerAdaptApi.DataAccess
+dotnet ef database update --project DemoCustomerAdaptApi.DataAccess
